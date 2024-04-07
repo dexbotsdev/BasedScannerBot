@@ -52,8 +52,7 @@ bot.onText(/\/info (.+)/, function (msg, match) {
 <b>📦 Source code Verified:</b> ${data.verified ? '✅':'❌' }
 <b>💵 Buy Tax:</b> ${data.buyTax}%
 <b>💵 Sell Tax:</b> ${data.sellTax}%
-
-✍️ @DEXBOTSDEV`
+`
             bot.sendMessage(chatId,msg,{parse_mode : "HTML"});
         }
     })

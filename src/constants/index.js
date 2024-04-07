@@ -1,3 +1,7 @@
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
+
  
 export const RPC="https://base-mainnet.g.alchemy.com/v2/EIR3Z5clOy82mK2Jet82AlbNtfoP5zEW"
 export const SUSHISWAP_SWAP_ROUTER_ADDRESS="0x4752ba5DBc23f44D87826276BF6Fd6b1C372aD24"
